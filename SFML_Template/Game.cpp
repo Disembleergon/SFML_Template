@@ -1,13 +1,13 @@
-#include "GameWindow.hpp"
+#include "Game.hpp"
 #include "utils/Time.hpp"
 
-GameWindow::GameWindow(unsigned int w, unsigned int h, const sf::String &title) : m_window{sf::VideoMode{w, h}, title}
+Game::Game(unsigned int w, unsigned int h, const sf::String &title) : m_window{sf::VideoMode{w, h}, title}
 {
     m_window.setFramerateLimit(60);
     m_window.setVerticalSyncEnabled(true);
 }
 
-void GameWindow::handleEvents()
+void Game::handleEvents()
 {
     sf::Event event;
     while (m_window.pollEvent(event))
@@ -17,8 +17,10 @@ void GameWindow::handleEvents()
     }
 }
 
-void GameWindow::run()
+void Game::run()
 {
+    // create GameScript objects here
+
     while (m_window.isOpen())
     {
         Time::updateDeltaTime();

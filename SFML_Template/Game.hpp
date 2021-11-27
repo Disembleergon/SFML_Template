@@ -1,10 +1,10 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-class GameWindow
+class Game
 {
   public:
-    GameWindow(unsigned int w, unsigned int h, const sf::String &title);
+    Game(unsigned int w, unsigned int h, const sf::String &title);
     void run();
 
   private:

@@ -13,6 +13,9 @@ MyScript(sf::RenderWindow &window, someOtherArguments) : GameScript(window)
 
 In the game class, just create one or more objects of your script and in the mainloop,
 call the update and draw methods of the scripts.
+
+To access the current sf::RenderWindow, just use m_window inside the update or draw method ;-)
+
 */
 
 // abstract class for game scripts

@@ -1,4 +1,3 @@
-#pragma once
 #include <SFML/System.hpp>
 
 // for movement etc., always multiply the values with deltaTime!
@@ -17,6 +16,3 @@ public:
 private:
     static sf::Clock m_dtClock;
 };
-
-float Time::deltaTime = 0;
-sf::Clock Time::m_dtClock;
