@@ -1,6 +1,6 @@
 /x64/
 /.vs/
-/SFML_Template/x64/
-/SFML_Template/*.user
-/SFML_Template/*.filters
-/SFML_Template/*.vcxproj
+/*.user
+/*.filters
+/*.vcxproj
+/*.sln
