@@ -1,4 +1,6 @@
-#pragma once
+#ifndef GAMESCRIPT_HPP
+#define GAMESCRIPT_HPP
+
 #include <SFML/Graphics.hpp>
 
 /*
@@ -36,3 +38,5 @@ public:
 protected:
     sf::RenderWindow& m_window;
 };
+
+#endif

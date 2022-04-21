@@ -1,4 +1,6 @@
-#pragma once
+#ifndef RANDOM_HPP
+#define RANDOM_HPP
+
 #include <concepts>
 #include <random>
 
@@ -24,3 +26,5 @@ private:
 
 std::random_device Random::rd;
 std::mt19937_64 Random::engine{ Random::rd() };
+
+#endif
