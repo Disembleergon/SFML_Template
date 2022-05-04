@@ -1,5 +1,5 @@
-#ifndef GAMESCRIPT_HPP
-#define GAMESCRIPT_HPP
+#ifndef COMPONENT_HPP
+#define COMPONENT_HPP
 
 #include <SFML/Graphics.hpp>
 
